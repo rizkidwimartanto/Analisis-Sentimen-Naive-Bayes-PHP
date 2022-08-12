@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav.clearfix {
+  background-color: aqua;
+  height: 55px;
+  width: 100%;
+  position: relative;
+  font-size: 15pt;
+}
+
+nav.clearfix ul.clearfix {
+  padding: 0;
+  margin: 0 auto;
+  width: 500px;
+  height: 55px;
+}
+
+nav.clearfix li.clearfix {
+  float: left;
+  display: inline;
+}
+
+nav.clearfix a.clearfix {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 55px;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+nav.clearfix a:hover,
+nav.clearfix a:active {
+  color: rgb(255, 152, 115);
+}
+
+nav.clearfix a#pull {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  nav.clearfix {
+    height: auto;
+    border-bottom: 0;
+    background-color: aqua;
+  }
+  nav.clearfix ul.clearfix {
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  nav.clearfix li.clearfix {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+  nav.clearfix li.clearfix a.clearfix{
+      border-bottom: 1px solid black;
+  }
+  nav.clearfix a.clearfix{
+      text-align: left;
+      width: 100%;
+      text-indent: 25px;
+      color: black;
+  }
+  nav.clearfix a#pull{
+      display: block;
+      background-color: aqua;
+      width: 100%;
+      position: relative;
+      color: #ffffff;
+  }
+  nav.clearfix a#pull::after{
+      display: inline-block;
+      content: "";
+      background: url('/assets/img/menu.png') no-repeat;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 15px;
+      top: 10px;
+  }
+}

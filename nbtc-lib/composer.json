@@ -1,0 +1,5 @@
+{
+    "require": {
+        "niiknow/bayes": "^1.1"
+    }
+}

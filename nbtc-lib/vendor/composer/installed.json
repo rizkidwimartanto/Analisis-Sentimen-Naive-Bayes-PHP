@@ -1,0 +1,70 @@
+{
+    "packages": [
+        {
+            "name": "niiknow/bayes",
+            "version": "1.1.3",
+            "version_normalized": "1.1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/niiknow/bayes.git",
+                "reference": "e754145d52900fdf4c1e620cc561132954721cf9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/niiknow/bayes/zipball/e754145d52900fdf4c1e620cc561132954721cf9",
+                "reference": "e754145d52900fdf4c1e620cc561132954721cf9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5.0"
+            },
+            "time": "2021-01-06T16:56:20+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Niiknow\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tom Noogen",
+                    "email": "friends@niiknow.org"
+                }
+            ],
+            "description": "a machine learning lib",
+            "keywords": [
+                "bayes",
+                "classifier",
+                "lib",
+                "library",
+                "machine-learning",
+                "machine-learning-algorithm",
+                "naive",
+                "naive-bayes",
+                "naive-bayes-algorithm",
+                "naive-bayes-classification",
+                "naive-bayes-classifier",
+                "naivebayes",
+                "niiknow",
+                "php",
+                "php-library",
+                "php-ml"
+            ],
+            "support": {
+                "issues": "https://github.com/niiknow/bayes/issues",
+                "source": "https://github.com/niiknow/bayes/tree/1.1.3"
+            },
+            "install-path": "../niiknow/bayes"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
